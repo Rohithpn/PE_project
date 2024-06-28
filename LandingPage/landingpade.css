@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:rgba(0, 125, 250, 1);
+    display: flex;
+    flex-direction: row;
+}
+.logo>img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.logoandname{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.name{
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+    color: white;   
+    font-size:small;
+    
+}
+
+.name>p{
+    position: relative;
+    bottom: 20px;
+    left: 2px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    left: 380px;
+    top: 5px;
+    font-size:medium;
+}
+li{
+    padding-right: 150px;
+}
+.signout{
+    width:40px;
+    height:30px;
+    position: relative;
+    left: 45%;
+    top: 15px;
+}
